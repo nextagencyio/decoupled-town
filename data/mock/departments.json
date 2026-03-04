@@ -1,0 +1,193 @@
+{
+  "data": {
+    "nodeDepartments": {
+      "__typename": "NodeDepartmentConnection",
+      "nodes": [
+        {
+          "__typename": "NodeDepartment",
+          "id": "dept-admin",
+          "title": "Administration",
+          "path": "/departments/administration",
+          "body": {
+            "processed": "<p>The Administration Department oversees the day-to-day operations of the Town of Willowbrook. Led by the Town Manager, this department coordinates activities across all municipal departments to ensure efficient delivery of services.</p><h2>Key Responsibilities</h2><ul><li>Budget development and financial management</li><li>Human resources and personnel management</li><li>Inter-departmental coordination</li><li>Public communications and community outreach</li></ul>",
+            "summary": "The Administration Department oversees the day-to-day operations of the Town of Willowbrook. Led by the Town Manager, this department coordinates activities across all municipal departments to ensure "
+          },
+          "phone": "(555) 100-1000",
+          "email": "admin@willowbrook.gov",
+          "location": "Town Hall, 100 Main Street",
+          "hours": "Monday - Friday, 8:00 AM - 5:00 PM",
+          "departmentCategory": [
+            {
+              "id": "administration",
+              "name": "administration"
+            }
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1577495508048-b635879837f1?w=800&q=80",
+            "alt": "Town Hall building",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1577495508048-b635879837f1?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1577495508048-b635879837f1?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1577495508048-b635879837f1?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeDepartment",
+          "id": "dept-public-works",
+          "title": "Public Works",
+          "path": "/departments/public-works",
+          "body": {
+            "processed": "<p>The Department of Public Works maintains the town's infrastructure including roads, bridges, water systems, and stormwater management. Our team works year-round to keep Willowbrook safe, clean, and functional.</p><h2>Services</h2><ul><li>Road maintenance and snow removal</li><li>Water and sewer system management</li><li>Solid waste and recycling collection</li><li>Stormwater management</li></ul>",
+            "summary": "The Department of Public Works maintains the town's infrastructure including roads, bridges, water systems, and stormwater management. Our team works year-round to keep Willowbrook safe, clean, and fu"
+          },
+          "phone": "(555) 100-2000",
+          "email": "publicworks@willowbrook.gov",
+          "location": "Public Works Facility, 250 Industrial Drive",
+          "hours": "Monday - Friday, 7:00 AM - 3:30 PM",
+          "departmentCategory": [
+            {
+              "id": "public-works",
+              "name": "public-works"
+            }
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&q=80",
+            "alt": "Public works crew maintaining roads",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeDepartment",
+          "id": "dept-parks",
+          "title": "Parks & Recreation",
+          "path": "/departments/parks-and-recreation",
+          "body": {
+            "processed": "<p>The Parks & Recreation Department provides recreational programs, maintains parks and open spaces, and manages the Willowbrook Community Center. We offer year-round activities for residents of all ages.</p><h2>Facilities</h2><ul><li>Willowbrook Community Center</li><li>18 public parks and playgrounds</li><li>Municipal swimming pool</li><li>4 athletic fields</li></ul>",
+            "summary": "The Parks & Recreation Department provides recreational programs, maintains parks and open spaces, and manages the Willowbrook Community Center. We offer year-round activities for residents of all age"
+          },
+          "phone": "(555) 100-3000",
+          "email": "parks@willowbrook.gov",
+          "location": "Community Center, 75 Park Avenue",
+          "hours": "Monday - Saturday, 6:00 AM - 9:00 PM",
+          "departmentCategory": [
+            {
+              "id": "parks-recreation",
+              "name": "parks-recreation"
+            }
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1568393691622-c7ba131d63b4?w=800&q=80",
+            "alt": "Beautiful park with walking trails",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1568393691622-c7ba131d63b4?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1568393691622-c7ba131d63b4?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1568393691622-c7ba131d63b4?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeDepartment",
+          "id": "dept-public-safety",
+          "title": "Public Safety",
+          "path": "/departments/public-safety",
+          "body": {
+            "processed": "<p>The Public Safety Department encompasses the Willowbrook Police Department and Fire Department. Our sworn officers and firefighters work around the clock to protect our community and respond to emergencies.</p><h2>Divisions</h2><ul><li>Police patrol and investigations</li><li>Fire suppression and prevention</li><li>Emergency medical services</li><li>Emergency management</li></ul>",
+            "summary": "The Public Safety Department encompasses the Willowbrook Police Department and Fire Department. Our sworn officers and firefighters work around the clock to protect our community and respond to emerge"
+          },
+          "phone": "(555) 100-4000",
+          "email": "safety@willowbrook.gov",
+          "location": "Public Safety Building, 50 Civic Drive",
+          "hours": "24/7 (Non-emergency inquiries: Monday - Friday, 8:00 AM - 5:00 PM)",
+          "departmentCategory": [
+            {
+              "id": "public-safety",
+              "name": "public-safety"
+            }
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1517263904808-5dc91e3e7044?w=800&q=80",
+            "alt": "Fire station and emergency vehicles",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1517263904808-5dc91e3e7044?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1517263904808-5dc91e3e7044?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1517263904808-5dc91e3e7044?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

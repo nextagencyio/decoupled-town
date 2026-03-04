@@ -1,0 +1,933 @@
+{
+  "/homepage": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeHomepage",
+          "id": "homepage",
+          "title": "Welcome to the Town of Willowbrook",
+          "path": "/homepage",
+          "heroTitle": "Your Community, Your Home",
+          "heroSubtitle": "Town of Willowbrook",
+          "heroDescription": {
+            "processed": "<p>Nestled in the heart of the valley, Willowbrook is a vibrant community committed to transparent governance, excellent public services, and a high quality of life for all residents.</p>",
+            "summary": "Nestled in the heart of the valley, Willowbrook is a vibrant community committed to transparent governance, excellent public services, and a high quality of life for all residents."
+          },
+          "statsItems": [
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-population",
+              "title": "",
+              "number": "24,500",
+              "label": "Residents"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-parks",
+              "title": "",
+              "number": "18",
+              "label": "Public Parks"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-services",
+              "title": "",
+              "number": "50+",
+              "label": "Town Services"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-founded",
+              "title": "",
+              "number": "1847",
+              "label": "Year Founded"
+            }
+          ],
+          "featuredServicesTitle": "Popular Services",
+          "ctaTitle": "How Can We Help?",
+          "ctaDescription": {
+            "processed": "<p>The Town of Willowbrook is here to serve you. Report issues, request services, or get in touch with your local government.</p>",
+            "summary": "The Town of Willowbrook is here to serve you. Report issues, request services, or get in touch with your local government."
+          },
+          "ctaPrimary": "Report an Issue",
+          "ctaSecondary": "Contact Us"
+        }
+      }
+    }
+  },
+  "/departments/administration": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeDepartment",
+          "id": "dept-admin",
+          "title": "Administration",
+          "path": "/departments/administration",
+          "body": {
+            "processed": "<p>The Administration Department oversees the day-to-day operations of the Town of Willowbrook. Led by the Town Manager, this department coordinates activities across all municipal departments to ensure efficient delivery of services.</p><h2>Key Responsibilities</h2><ul><li>Budget development and financial management</li><li>Human resources and personnel management</li><li>Inter-departmental coordination</li><li>Public communications and community outreach</li></ul>",
+            "summary": "The Administration Department oversees the day-to-day operations of the Town of Willowbrook. Led by the Town Manager, this department coordinates activities across all municipal departments to ensure "
+          },
+          "phone": "(555) 100-1000",
+          "email": "admin@willowbrook.gov",
+          "location": "Town Hall, 100 Main Street",
+          "hours": "Monday - Friday, 8:00 AM - 5:00 PM",
+          "departmentCategory": [
+            {
+              "id": "administration",
+              "name": "administration"
+            }
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1577495508048-b635879837f1?w=800&q=80",
+            "alt": "Town Hall building",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1577495508048-b635879837f1?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1577495508048-b635879837f1?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1577495508048-b635879837f1?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/departments/public-works": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeDepartment",
+          "id": "dept-public-works",
+          "title": "Public Works",
+          "path": "/departments/public-works",
+          "body": {
+            "processed": "<p>The Department of Public Works maintains the town's infrastructure including roads, bridges, water systems, and stormwater management. Our team works year-round to keep Willowbrook safe, clean, and functional.</p><h2>Services</h2><ul><li>Road maintenance and snow removal</li><li>Water and sewer system management</li><li>Solid waste and recycling collection</li><li>Stormwater management</li></ul>",
+            "summary": "The Department of Public Works maintains the town's infrastructure including roads, bridges, water systems, and stormwater management. Our team works year-round to keep Willowbrook safe, clean, and fu"
+          },
+          "phone": "(555) 100-2000",
+          "email": "publicworks@willowbrook.gov",
+          "location": "Public Works Facility, 250 Industrial Drive",
+          "hours": "Monday - Friday, 7:00 AM - 3:30 PM",
+          "departmentCategory": [
+            {
+              "id": "public-works",
+              "name": "public-works"
+            }
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&q=80",
+            "alt": "Public works crew maintaining roads",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/departments/parks-and-recreation": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeDepartment",
+          "id": "dept-parks",
+          "title": "Parks & Recreation",
+          "path": "/departments/parks-and-recreation",
+          "body": {
+            "processed": "<p>The Parks & Recreation Department provides recreational programs, maintains parks and open spaces, and manages the Willowbrook Community Center. We offer year-round activities for residents of all ages.</p><h2>Facilities</h2><ul><li>Willowbrook Community Center</li><li>18 public parks and playgrounds</li><li>Municipal swimming pool</li><li>4 athletic fields</li></ul>",
+            "summary": "The Parks & Recreation Department provides recreational programs, maintains parks and open spaces, and manages the Willowbrook Community Center. We offer year-round activities for residents of all age"
+          },
+          "phone": "(555) 100-3000",
+          "email": "parks@willowbrook.gov",
+          "location": "Community Center, 75 Park Avenue",
+          "hours": "Monday - Saturday, 6:00 AM - 9:00 PM",
+          "departmentCategory": [
+            {
+              "id": "parks-recreation",
+              "name": "parks-recreation"
+            }
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1568393691622-c7ba131d63b4?w=800&q=80",
+            "alt": "Beautiful park with walking trails",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1568393691622-c7ba131d63b4?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1568393691622-c7ba131d63b4?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1568393691622-c7ba131d63b4?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/departments/public-safety": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeDepartment",
+          "id": "dept-public-safety",
+          "title": "Public Safety",
+          "path": "/departments/public-safety",
+          "body": {
+            "processed": "<p>The Public Safety Department encompasses the Willowbrook Police Department and Fire Department. Our sworn officers and firefighters work around the clock to protect our community and respond to emergencies.</p><h2>Divisions</h2><ul><li>Police patrol and investigations</li><li>Fire suppression and prevention</li><li>Emergency medical services</li><li>Emergency management</li></ul>",
+            "summary": "The Public Safety Department encompasses the Willowbrook Police Department and Fire Department. Our sworn officers and firefighters work around the clock to protect our community and respond to emerge"
+          },
+          "phone": "(555) 100-4000",
+          "email": "safety@willowbrook.gov",
+          "location": "Public Safety Building, 50 Civic Drive",
+          "hours": "24/7 (Non-emergency inquiries: Monday - Friday, 8:00 AM - 5:00 PM)",
+          "departmentCategory": [
+            {
+              "id": "public-safety",
+              "name": "public-safety"
+            }
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1517263904808-5dc91e3e7044?w=800&q=80",
+            "alt": "Fire station and emergency vehicles",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1517263904808-5dc91e3e7044?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1517263904808-5dc91e3e7044?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1517263904808-5dc91e3e7044?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/officials/mayor-patricia-reynolds": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeOfficial",
+          "id": "official-mayor",
+          "title": "Patricia Reynolds",
+          "path": "/officials/mayor-patricia-reynolds",
+          "body": {
+            "processed": "<p>Mayor Reynolds has served the Town of Willowbrook since 2020. A lifelong resident, she previously served on the Town Council for eight years and chaired the Planning Board. Her priorities include sustainable development, infrastructure investment, and community engagement.</p>",
+            "summary": "Mayor Reynolds has served the Town of Willowbrook since 2020. A lifelong resident, she previously served on the Town Council for eight years and chaired the Planning Board. Her priorities include sust"
+          },
+          "position": "Mayor",
+          "department": [
+            {
+              "id": "administration",
+              "name": "administration"
+            }
+          ],
+          "email": "mayor@willowbrook.gov",
+          "phone": "(555) 100-1001",
+          "office": "Town Hall, Suite 200",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80",
+            "alt": "Mayor Patricia Reynolds",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/officials/town-manager-david-chen": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeOfficial",
+          "id": "official-town-manager",
+          "title": "David Chen",
+          "path": "/officials/town-manager-david-chen",
+          "body": {
+            "processed": "<p>David Chen serves as Town Manager, overseeing the daily operations of Willowbrook's municipal government. With over 20 years of experience in local government, he brings expertise in public administration, budget management, and strategic planning.</p>",
+            "summary": "David Chen serves as Town Manager, overseeing the daily operations of Willowbrook's municipal government. With over 20 years of experience in local government, he brings expertise in public administra"
+          },
+          "position": "Town Manager",
+          "department": [
+            {
+              "id": "administration",
+              "name": "administration"
+            }
+          ],
+          "email": "dchen@willowbrook.gov",
+          "phone": "(555) 100-1002",
+          "office": "Town Hall, Suite 210",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
+            "alt": "Town Manager David Chen",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/officials/police-chief-maria-gonzalez": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeOfficial",
+          "id": "official-police-chief",
+          "title": "Maria Gonzalez",
+          "path": "/officials/police-chief-maria-gonzalez",
+          "body": {
+            "processed": "<p>Chief Gonzalez leads the Willowbrook Police Department with a focus on community policing and public safety. She has served in law enforcement for 25 years and emphasizes building trust between the police force and the community.</p>",
+            "summary": "Chief Gonzalez leads the Willowbrook Police Department with a focus on community policing and public safety. She has served in law enforcement for 25 years and emphasizes building trust between the po"
+          },
+          "position": "Police Chief",
+          "department": [
+            {
+              "id": "public-safety",
+              "name": "public-safety"
+            }
+          ],
+          "email": "mgonzalez@willowbrook.gov",
+          "phone": "(555) 100-4001",
+          "office": "Public Safety Building, Room 101",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=400&q=80",
+            "alt": "Police Chief Maria Gonzalez",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=400&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=400&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=400&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/services/building-permits": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeService",
+          "id": "service-building-permits",
+          "title": "Building Permits",
+          "path": "/services/building-permits",
+          "body": {
+            "processed": "<p>All new construction, renovations, and structural modifications in Willowbrook require a building permit. Our Building Department reviews applications to ensure compliance with local zoning regulations and building codes.</p><h2>How to Apply</h2><ul><li>Complete the building permit application form</li><li>Submit architectural plans and site surveys</li><li>Pay the applicable permit fee</li><li>Schedule required inspections</li></ul>",
+            "summary": "All new construction, renovations, and structural modifications in Willowbrook require a building permit. Our Building Department reviews applications to ensure compliance with local zoning regulation"
+          },
+          "department": [
+            {
+              "id": "administration",
+              "name": "administration"
+            }
+          ],
+          "onlineUrl": "https://willowbrook.gov/permits/apply",
+          "eligibility": "Property owners and licensed contractors",
+          "fee": "$50 - $500 depending on project scope",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80",
+            "alt": "Construction site with building permits",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/services/water-billing": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeService",
+          "id": "service-water-billing",
+          "title": "Water & Sewer Billing",
+          "path": "/services/water-billing",
+          "body": {
+            "processed": "<p>The Town of Willowbrook provides water and sewer services to all residents. Bills are issued quarterly based on metered water usage. We offer online payment, automatic bank draft, and in-person payment options.</p><h2>Payment Options</h2><ul><li>Online payment portal</li><li>Automatic bank draft enrollment</li><li>In-person at Town Hall</li><li>Mail payment to P.O. Box 1847</li></ul>",
+            "summary": "The Town of Willowbrook provides water and sewer services to all residents. Bills are issued quarterly based on metered water usage. We offer online payment, automatic bank draft, and in-person paymen"
+          },
+          "department": [
+            {
+              "id": "public-works",
+              "name": "public-works"
+            }
+          ],
+          "onlineUrl": "https://willowbrook.gov/water/pay",
+          "eligibility": "All Willowbrook water service customers",
+          "fee": "Based on quarterly metered usage",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1584438784894-089d6a62b8fa?w=800&q=80",
+            "alt": "Water treatment facility",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1584438784894-089d6a62b8fa?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1584438784894-089d6a62b8fa?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1584438784894-089d6a62b8fa?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/services/recreation-programs": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeService",
+          "id": "service-recreation-programs",
+          "title": "Recreation Programs",
+          "path": "/services/recreation-programs",
+          "body": {
+            "processed": "<p>The Parks & Recreation Department offers a wide variety of programs for residents of all ages. From youth sports leagues to senior fitness classes, there is something for everyone in Willowbrook.</p><h2>Current Programs</h2><ul><li>Youth soccer, basketball, and baseball leagues</li><li>Adult fitness and yoga classes</li><li>Senior wellness programs</li><li>Summer camp and after-school care</li></ul>",
+            "summary": "The Parks & Recreation Department offers a wide variety of programs for residents of all ages. From youth sports leagues to senior fitness classes, there is something for everyone in Willowbrook.Curre"
+          },
+          "department": [
+            {
+              "id": "parks-recreation",
+              "name": "parks-recreation"
+            }
+          ],
+          "onlineUrl": "https://willowbrook.gov/recreation/register",
+          "eligibility": "Willowbrook residents (non-residents may register with surcharge)",
+          "fee": "Varies by program, scholarships available",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=800&q=80",
+            "alt": "Community recreation activities",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/services/trash-and-recycling": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeService",
+          "id": "service-trash-recycling",
+          "title": "Trash & Recycling",
+          "path": "/services/trash-and-recycling",
+          "body": {
+            "processed": "<p>Curbside trash and recycling collection is provided weekly to all Willowbrook residents. The town also operates a drop-off recycling center for materials not accepted in curbside collection.</p><h2>Collection Schedule</h2><ul><li>Trash: Every Tuesday</li><li>Recycling: Every Thursday</li><li>Yard waste: First and third Saturdays (April - November)</li><li>Bulk pickup: By appointment</li></ul>",
+            "summary": "Curbside trash and recycling collection is provided weekly to all Willowbrook residents. The town also operates a drop-off recycling center for materials not accepted in curbside collection.Collection"
+          },
+          "department": [
+            {
+              "id": "public-works",
+              "name": "public-works"
+            }
+          ],
+          "onlineUrl": "https://willowbrook.gov/trash/schedule",
+          "eligibility": "All Willowbrook residents",
+          "fee": "Included in property taxes",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?w=800&q=80",
+            "alt": "Recycling bins and collection",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/meetings/town-council-march-2026": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeMeeting",
+          "id": "meeting-town-council",
+          "title": "Town Council Regular Meeting - March 2026",
+          "path": "/meetings/town-council-march-2026",
+          "body": {
+            "processed": "<p>The Town Council will hold its regular monthly meeting. Agenda items include the proposed FY2027 budget, updates on the Willowbrook Green infrastructure project, and a public comment period.</p><h2>Agenda Highlights</h2><ul><li>Approval of previous meeting minutes</li><li>FY2027 budget presentation</li><li>Willowbrook Green project update</li><li>Public comment period</li><li>New business</li></ul>",
+            "summary": "The Town Council will hold its regular monthly meeting. Agenda items include the proposed FY2027 budget, updates on the Willowbrook Green infrastructure project, and a public comment period.Agenda Hig"
+          },
+          "meetingDate": {
+            "timestamp": 1773792000
+          },
+          "endDate": {
+            "timestamp": 1773799200
+          },
+          "location": "Town Hall Council Chambers, 100 Main Street",
+          "meetingType": [
+            {
+              "id": "town-council",
+              "name": "town-council"
+            }
+          ],
+          "agendaUrl": "https://willowbrook.gov/meetings/agendas/march-2026",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=800&q=80",
+            "alt": "Town council meeting",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/meetings/planning-board-april-2026": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeMeeting",
+          "id": "meeting-planning-board",
+          "title": "Planning Board Meeting - April 2026",
+          "path": "/meetings/planning-board-april-2026",
+          "body": {
+            "processed": "<p>The Planning Board will review two new development proposals and discuss updates to the town's comprehensive plan. Public input is welcome during the designated comment periods.</p><h2>Agenda</h2><ul><li>Site plan review: Mixed-use development at 45 Elm Street</li><li>Subdivision application: Willow Ridge Estates</li><li>Comprehensive plan update discussion</li><li>Public comment</li></ul>",
+            "summary": "The Planning Board will review two new development proposals and discuss updates to the town's comprehensive plan. Public input is welcome during the designated comment periods.AgendaSite plan review:"
+          },
+          "meetingDate": {
+            "timestamp": 1775691000
+          },
+          "endDate": {
+            "timestamp": 1775698200
+          },
+          "location": "Town Hall Conference Room A",
+          "meetingType": [
+            {
+              "id": "planning-board",
+              "name": "planning-board"
+            }
+          ],
+          "agendaUrl": "https://willowbrook.gov/meetings/agendas/planning-april-2026",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=800&q=80",
+            "alt": "Planning board session",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/meetings/public-hearing-budget-2026": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeMeeting",
+          "id": "meeting-public-hearing",
+          "title": "Public Hearing: FY2027 Budget",
+          "path": "/meetings/public-hearing-budget-2026",
+          "body": {
+            "processed": "<p>The Town of Willowbrook will hold a public hearing on the proposed Fiscal Year 2027 municipal budget. Residents are encouraged to attend and provide their input on budget priorities and allocations.</p><p>A copy of the proposed budget is available for review at Town Hall and on the town website.</p>",
+            "summary": "The Town of Willowbrook will hold a public hearing on the proposed Fiscal Year 2027 municipal budget. Residents are encouraged to attend and provide their input on budget priorities and allocations.A "
+          },
+          "meetingDate": {
+            "timestamp": 1776902400
+          },
+          "endDate": {
+            "timestamp": 1776909600
+          },
+          "location": "Town Hall Council Chambers",
+          "meetingType": [
+            {
+              "id": "public-hearing",
+              "name": "public-hearing"
+            }
+          ],
+          "agendaUrl": "https://willowbrook.gov/budget/fy2027",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&q=80",
+            "alt": "Budget documents and meeting materials",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/alerts/water-main-repair": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeAlert",
+          "id": "alert-water-main",
+          "title": "Water Main Repair - Oak Street",
+          "path": "/alerts/water-main-repair",
+          "body": {
+            "processed": "<p>The Department of Public Works will be performing emergency water main repairs on Oak Street between Maple Avenue and Pine Drive. Water service may be interrupted for residents in the affected area during the repair work.</p><p>Residents are advised to store an adequate supply of drinking water prior to the scheduled repair. Bottled water will be available at Town Hall for affected residents.</p>",
+            "summary": "The Department of Public Works will be performing emergency water main repairs on Oak Street between Maple Avenue and Pine Drive. Water service may be interrupted for residents in the affected area du"
+          },
+          "alertLevel": [
+            {
+              "id": "warning",
+              "name": "warning"
+            }
+          ],
+          "effectiveDate": {
+            "timestamp": 1773140400
+          },
+          "expirationDate": {
+            "timestamp": 1773356400
+          },
+          "affectedArea": "Oak Street between Maple Avenue and Pine Drive"
+        }
+      }
+    }
+  },
+  "/alerts/winter-storm-warning": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeAlert",
+          "id": "alert-winter-storm",
+          "title": "Winter Storm Warning",
+          "path": "/alerts/winter-storm-warning",
+          "body": {
+            "processed": "<p>The National Weather Service has issued a Winter Storm Warning for the Willowbrook area. Expected snowfall of 8-12 inches with high winds. Town plows will be deployed. Residents should limit non-essential travel.</p><h2>Preparedness Tips</h2><ul><li>Stay off roads during heavy snowfall</li><li>Keep emergency supplies readily available</li><li>Check on elderly neighbors</li><li>Report downed power lines to (555) 100-4000</li></ul>",
+            "summary": "The National Weather Service has issued a Winter Storm Warning for the Willowbrook area. Expected snowfall of 8-12 inches with high winds. Town plows will be deployed. Residents should limit non-essen"
+          },
+          "alertLevel": [
+            {
+              "id": "emergency",
+              "name": "emergency"
+            }
+          ],
+          "effectiveDate": {
+            "timestamp": 1772755200
+          },
+          "expirationDate": {
+            "timestamp": 1772884800
+          },
+          "affectedArea": "All of Willowbrook"
+        }
+      }
+    }
+  },
+  "/alerts/main-street-closure": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeAlert",
+          "id": "alert-road-closure",
+          "title": "Main Street Temporary Closure",
+          "path": "/alerts/main-street-closure",
+          "body": {
+            "processed": "<p>Main Street will be temporarily closed between Center Square and River Road for the annual Willowbrook Spring Festival. Detour routes will be posted. Local business access will be maintained via side streets.</p>",
+            "summary": "Main Street will be temporarily closed between Center Square and River Road for the annual Willowbrook Spring Festival. Detour routes will be posted. Local business access will be maintained via side "
+          },
+          "alertLevel": [
+            {
+              "id": "advisory",
+              "name": "advisory"
+            }
+          ],
+          "effectiveDate": {
+            "timestamp": 1776510000
+          },
+          "expirationDate": {
+            "timestamp": 1776740400
+          },
+          "affectedArea": "Main Street from Center Square to River Road"
+        }
+      }
+    }
+  },
+  "/about": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodePage",
+          "id": "page-about",
+          "title": "About the Town of Willowbrook",
+          "path": "/about",
+          "body": {
+            "processed": "<p>Founded in 1847, the Town of Willowbrook is a charming community of approximately 24,500 residents located in the heart of the valley. Known for its tree-lined streets, excellent schools, and strong sense of community, Willowbrook has been recognized as one of the best places to live in the region.</p><h2>Town Government</h2><p>Willowbrook operates under a Council-Manager form of government. The Town Council, consisting of five elected members and the Mayor, sets policy and budget priorities. The Town Manager handles day-to-day operations and oversees all municipal departments.</p><h2>Our Mission</h2><p>To provide excellent public services, maintain a safe and welcoming community, and ensure transparent and responsive governance for all residents of Willowbrook.</p><h2>History</h2><p>What began as a small farming settlement along Willow Creek has grown into a thriving suburban community. The town was officially incorporated in 1847 and has maintained its commitment to preserving green spaces and community character throughout its growth.</p>",
+            "summary": "Founded in 1847, the Town of Willowbrook is a charming community of approximately 24,500 residents located in the heart of the valley. Known for its tree-lined streets, excellent schools, and strong s"
+          }
+        }
+      }
+    }
+  },
+  "/contact": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodePage",
+          "id": "page-contact",
+          "title": "Contact the Town of Willowbrook",
+          "path": "/contact",
+          "body": {
+            "processed": "<h2>Town Hall</h2><p><strong>Address:</strong> 100 Main Street, Willowbrook, NY 10001<br/><strong>Phone:</strong> (555) 100-1000<br/><strong>Email:</strong> info@willowbrook.gov<br/><strong>Hours:</strong> Monday - Friday, 8:00 AM - 5:00 PM</p><h2>Emergency Contacts</h2><p><strong>Police/Fire/EMS Emergency:</strong> 911<br/><strong>Non-Emergency Police:</strong> (555) 100-4000<br/><strong>Public Works Emergency:</strong> (555) 100-2000</p><h2>After-Hours Reporting</h2><p>For after-hours emergencies related to water, sewer, or road hazards, call the Public Works emergency line at (555) 100-2099.</p>",
+            "summary": "Town HallAddress: 100 Main Street, Willowbrook, NY 10001Phone: (555) 100-1000Email: info@willowbrook.govHours: Monday - Friday, 8:00 AM - 5:00 PMEmergency ContactsPolice/Fire/EMS Emergency: 911Non-Eme"
+          }
+        }
+      }
+    }
+  }
+}

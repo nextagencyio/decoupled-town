@@ -1,0 +1,159 @@
+{
+  "data": {
+    "nodeMeetings": {
+      "__typename": "NodeMeetingConnection",
+      "nodes": [
+        {
+          "__typename": "NodeMeeting",
+          "id": "meeting-town-council",
+          "title": "Town Council Regular Meeting - March 2026",
+          "path": "/meetings/town-council-march-2026",
+          "body": {
+            "processed": "<p>The Town Council will hold its regular monthly meeting. Agenda items include the proposed FY2027 budget, updates on the Willowbrook Green infrastructure project, and a public comment period.</p><h2>Agenda Highlights</h2><ul><li>Approval of previous meeting minutes</li><li>FY2027 budget presentation</li><li>Willowbrook Green project update</li><li>Public comment period</li><li>New business</li></ul>",
+            "summary": "The Town Council will hold its regular monthly meeting. Agenda items include the proposed FY2027 budget, updates on the Willowbrook Green infrastructure project, and a public comment period.Agenda Hig"
+          },
+          "meetingDate": {
+            "timestamp": 1773792000
+          },
+          "endDate": {
+            "timestamp": 1773799200
+          },
+          "location": "Town Hall Council Chambers, 100 Main Street",
+          "meetingType": [
+            {
+              "id": "town-council",
+              "name": "town-council"
+            }
+          ],
+          "agendaUrl": "https://willowbrook.gov/meetings/agendas/march-2026",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=800&q=80",
+            "alt": "Town council meeting",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeMeeting",
+          "id": "meeting-planning-board",
+          "title": "Planning Board Meeting - April 2026",
+          "path": "/meetings/planning-board-april-2026",
+          "body": {
+            "processed": "<p>The Planning Board will review two new development proposals and discuss updates to the town's comprehensive plan. Public input is welcome during the designated comment periods.</p><h2>Agenda</h2><ul><li>Site plan review: Mixed-use development at 45 Elm Street</li><li>Subdivision application: Willow Ridge Estates</li><li>Comprehensive plan update discussion</li><li>Public comment</li></ul>",
+            "summary": "The Planning Board will review two new development proposals and discuss updates to the town's comprehensive plan. Public input is welcome during the designated comment periods.AgendaSite plan review:"
+          },
+          "meetingDate": {
+            "timestamp": 1775691000
+          },
+          "endDate": {
+            "timestamp": 1775698200
+          },
+          "location": "Town Hall Conference Room A",
+          "meetingType": [
+            {
+              "id": "planning-board",
+              "name": "planning-board"
+            }
+          ],
+          "agendaUrl": "https://willowbrook.gov/meetings/agendas/planning-april-2026",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=800&q=80",
+            "alt": "Planning board session",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeMeeting",
+          "id": "meeting-public-hearing",
+          "title": "Public Hearing: FY2027 Budget",
+          "path": "/meetings/public-hearing-budget-2026",
+          "body": {
+            "processed": "<p>The Town of Willowbrook will hold a public hearing on the proposed Fiscal Year 2027 municipal budget. Residents are encouraged to attend and provide their input on budget priorities and allocations.</p><p>A copy of the proposed budget is available for review at Town Hall and on the town website.</p>",
+            "summary": "The Town of Willowbrook will hold a public hearing on the proposed Fiscal Year 2027 municipal budget. Residents are encouraged to attend and provide their input on budget priorities and allocations.A "
+          },
+          "meetingDate": {
+            "timestamp": 1776902400
+          },
+          "endDate": {
+            "timestamp": 1776909600
+          },
+          "location": "Town Hall Council Chambers",
+          "meetingType": [
+            {
+              "id": "public-hearing",
+              "name": "public-hearing"
+            }
+          ],
+          "agendaUrl": "https://willowbrook.gov/budget/fy2027",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&q=80",
+            "alt": "Budget documents and meeting materials",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

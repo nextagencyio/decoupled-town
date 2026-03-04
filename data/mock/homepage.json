@@ -1,0 +1,59 @@
+{
+  "data": {
+    "nodeHomepages": {
+      "__typename": "NodeHomepageConnection",
+      "nodes": [
+        {
+          "__typename": "NodeHomepage",
+          "id": "homepage",
+          "title": "Welcome to the Town of Willowbrook",
+          "path": "/homepage",
+          "heroTitle": "Your Community, Your Home",
+          "heroSubtitle": "Town of Willowbrook",
+          "heroDescription": {
+            "processed": "<p>Nestled in the heart of the valley, Willowbrook is a vibrant community committed to transparent governance, excellent public services, and a high quality of life for all residents.</p>",
+            "summary": "Nestled in the heart of the valley, Willowbrook is a vibrant community committed to transparent governance, excellent public services, and a high quality of life for all residents."
+          },
+          "statsItems": [
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-population",
+              "title": "",
+              "number": "24,500",
+              "label": "Residents"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-parks",
+              "title": "",
+              "number": "18",
+              "label": "Public Parks"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-services",
+              "title": "",
+              "number": "50+",
+              "label": "Town Services"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-founded",
+              "title": "",
+              "number": "1847",
+              "label": "Year Founded"
+            }
+          ],
+          "featuredServicesTitle": "Popular Services",
+          "ctaTitle": "How Can We Help?",
+          "ctaDescription": {
+            "processed": "<p>The Town of Willowbrook is here to serve you. Report issues, request services, or get in touch with your local government.</p>",
+            "summary": "The Town of Willowbrook is here to serve you. Report issues, request services, or get in touch with your local government."
+          },
+          "ctaPrimary": "Report an Issue",
+          "ctaSecondary": "Contact Us"
+        }
+      ]
+    }
+  }
+}

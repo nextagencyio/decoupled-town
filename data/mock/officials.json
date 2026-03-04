@@ -1,0 +1,147 @@
+{
+  "data": {
+    "nodeOfficials": {
+      "__typename": "NodeOfficialConnection",
+      "nodes": [
+        {
+          "__typename": "NodeOfficial",
+          "id": "official-mayor",
+          "title": "Patricia Reynolds",
+          "path": "/officials/mayor-patricia-reynolds",
+          "body": {
+            "processed": "<p>Mayor Reynolds has served the Town of Willowbrook since 2020. A lifelong resident, she previously served on the Town Council for eight years and chaired the Planning Board. Her priorities include sustainable development, infrastructure investment, and community engagement.</p>",
+            "summary": "Mayor Reynolds has served the Town of Willowbrook since 2020. A lifelong resident, she previously served on the Town Council for eight years and chaired the Planning Board. Her priorities include sust"
+          },
+          "position": "Mayor",
+          "department": [
+            {
+              "id": "administration",
+              "name": "administration"
+            }
+          ],
+          "email": "mayor@willowbrook.gov",
+          "phone": "(555) 100-1001",
+          "office": "Town Hall, Suite 200",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80",
+            "alt": "Mayor Patricia Reynolds",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeOfficial",
+          "id": "official-town-manager",
+          "title": "David Chen",
+          "path": "/officials/town-manager-david-chen",
+          "body": {
+            "processed": "<p>David Chen serves as Town Manager, overseeing the daily operations of Willowbrook's municipal government. With over 20 years of experience in local government, he brings expertise in public administration, budget management, and strategic planning.</p>",
+            "summary": "David Chen serves as Town Manager, overseeing the daily operations of Willowbrook's municipal government. With over 20 years of experience in local government, he brings expertise in public administra"
+          },
+          "position": "Town Manager",
+          "department": [
+            {
+              "id": "administration",
+              "name": "administration"
+            }
+          ],
+          "email": "dchen@willowbrook.gov",
+          "phone": "(555) 100-1002",
+          "office": "Town Hall, Suite 210",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
+            "alt": "Town Manager David Chen",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeOfficial",
+          "id": "official-police-chief",
+          "title": "Maria Gonzalez",
+          "path": "/officials/police-chief-maria-gonzalez",
+          "body": {
+            "processed": "<p>Chief Gonzalez leads the Willowbrook Police Department with a focus on community policing and public safety. She has served in law enforcement for 25 years and emphasizes building trust between the police force and the community.</p>",
+            "summary": "Chief Gonzalez leads the Willowbrook Police Department with a focus on community policing and public safety. She has served in law enforcement for 25 years and emphasizes building trust between the po"
+          },
+          "position": "Police Chief",
+          "department": [
+            {
+              "id": "public-safety",
+              "name": "public-safety"
+            }
+          ],
+          "email": "mgonzalez@willowbrook.gov",
+          "phone": "(555) 100-4001",
+          "office": "Public Safety Building, Room 101",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=400&q=80",
+            "alt": "Police Chief Maria Gonzalez",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=400&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=400&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=400&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "data": {
+    "nodeAlerts": {
+      "__typename": "NodeAlertConnection",
+      "nodes": [
+        {
+          "__typename": "NodeAlert",
+          "id": "alert-water-main",
+          "title": "Water Main Repair - Oak Street",
+          "path": "/alerts/water-main-repair",
+          "body": {
+            "processed": "<p>The Department of Public Works will be performing emergency water main repairs on Oak Street between Maple Avenue and Pine Drive. Water service may be interrupted for residents in the affected area during the repair work.</p><p>Residents are advised to store an adequate supply of drinking water prior to the scheduled repair. Bottled water will be available at Town Hall for affected residents.</p>",
+            "summary": "The Department of Public Works will be performing emergency water main repairs on Oak Street between Maple Avenue and Pine Drive. Water service may be interrupted for residents in the affected area du"
+          },
+          "alertLevel": [
+            {
+              "id": "warning",
+              "name": "warning"
+            }
+          ],
+          "effectiveDate": {
+            "timestamp": 1773140400
+          },
+          "expirationDate": {
+            "timestamp": 1773356400
+          },
+          "affectedArea": "Oak Street between Maple Avenue and Pine Drive"
+        },
+        {
+          "__typename": "NodeAlert",
+          "id": "alert-winter-storm",
+          "title": "Winter Storm Warning",
+          "path": "/alerts/winter-storm-warning",
+          "body": {
+            "processed": "<p>The National Weather Service has issued a Winter Storm Warning for the Willowbrook area. Expected snowfall of 8-12 inches with high winds. Town plows will be deployed. Residents should limit non-essential travel.</p><h2>Preparedness Tips</h2><ul><li>Stay off roads during heavy snowfall</li><li>Keep emergency supplies readily available</li><li>Check on elderly neighbors</li><li>Report downed power lines to (555) 100-4000</li></ul>",
+            "summary": "The National Weather Service has issued a Winter Storm Warning for the Willowbrook area. Expected snowfall of 8-12 inches with high winds. Town plows will be deployed. Residents should limit non-essen"
+          },
+          "alertLevel": [
+            {
+              "id": "emergency",
+              "name": "emergency"
+            }
+          ],
+          "effectiveDate": {
+            "timestamp": 1772755200
+          },
+          "expirationDate": {
+            "timestamp": 1772884800
+          },
+          "affectedArea": "All of Willowbrook"
+        },
+        {
+          "__typename": "NodeAlert",
+          "id": "alert-road-closure",
+          "title": "Main Street Temporary Closure",
+          "path": "/alerts/main-street-closure",
+          "body": {
+            "processed": "<p>Main Street will be temporarily closed between Center Square and River Road for the annual Willowbrook Spring Festival. Detour routes will be posted. Local business access will be maintained via side streets.</p>",
+            "summary": "Main Street will be temporarily closed between Center Square and River Road for the annual Willowbrook Spring Festival. Detour routes will be posted. Local business access will be maintained via side "
+          },
+          "alertLevel": [
+            {
+              "id": "advisory",
+              "name": "advisory"
+            }
+          ],
+          "effectiveDate": {
+            "timestamp": 1776510000
+          },
+          "expirationDate": {
+            "timestamp": 1776740400
+          },
+          "affectedArea": "Main Street from Center Square to River Road"
+        }
+      ]
+    }
+  }
+}

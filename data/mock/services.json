@@ -1,0 +1,189 @@
+{
+  "data": {
+    "nodeServices": {
+      "__typename": "NodeServiceConnection",
+      "nodes": [
+        {
+          "__typename": "NodeService",
+          "id": "service-building-permits",
+          "title": "Building Permits",
+          "path": "/services/building-permits",
+          "body": {
+            "processed": "<p>All new construction, renovations, and structural modifications in Willowbrook require a building permit. Our Building Department reviews applications to ensure compliance with local zoning regulations and building codes.</p><h2>How to Apply</h2><ul><li>Complete the building permit application form</li><li>Submit architectural plans and site surveys</li><li>Pay the applicable permit fee</li><li>Schedule required inspections</li></ul>",
+            "summary": "All new construction, renovations, and structural modifications in Willowbrook require a building permit. Our Building Department reviews applications to ensure compliance with local zoning regulation"
+          },
+          "department": [
+            {
+              "id": "administration",
+              "name": "administration"
+            }
+          ],
+          "onlineUrl": "https://willowbrook.gov/permits/apply",
+          "eligibility": "Property owners and licensed contractors",
+          "fee": "$50 - $500 depending on project scope",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80",
+            "alt": "Construction site with building permits",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeService",
+          "id": "service-water-billing",
+          "title": "Water & Sewer Billing",
+          "path": "/services/water-billing",
+          "body": {
+            "processed": "<p>The Town of Willowbrook provides water and sewer services to all residents. Bills are issued quarterly based on metered water usage. We offer online payment, automatic bank draft, and in-person payment options.</p><h2>Payment Options</h2><ul><li>Online payment portal</li><li>Automatic bank draft enrollment</li><li>In-person at Town Hall</li><li>Mail payment to P.O. Box 1847</li></ul>",
+            "summary": "The Town of Willowbrook provides water and sewer services to all residents. Bills are issued quarterly based on metered water usage. We offer online payment, automatic bank draft, and in-person paymen"
+          },
+          "department": [
+            {
+              "id": "public-works",
+              "name": "public-works"
+            }
+          ],
+          "onlineUrl": "https://willowbrook.gov/water/pay",
+          "eligibility": "All Willowbrook water service customers",
+          "fee": "Based on quarterly metered usage",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1584438784894-089d6a62b8fa?w=800&q=80",
+            "alt": "Water treatment facility",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1584438784894-089d6a62b8fa?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1584438784894-089d6a62b8fa?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1584438784894-089d6a62b8fa?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeService",
+          "id": "service-recreation-programs",
+          "title": "Recreation Programs",
+          "path": "/services/recreation-programs",
+          "body": {
+            "processed": "<p>The Parks & Recreation Department offers a wide variety of programs for residents of all ages. From youth sports leagues to senior fitness classes, there is something for everyone in Willowbrook.</p><h2>Current Programs</h2><ul><li>Youth soccer, basketball, and baseball leagues</li><li>Adult fitness and yoga classes</li><li>Senior wellness programs</li><li>Summer camp and after-school care</li></ul>",
+            "summary": "The Parks & Recreation Department offers a wide variety of programs for residents of all ages. From youth sports leagues to senior fitness classes, there is something for everyone in Willowbrook.Curre"
+          },
+          "department": [
+            {
+              "id": "parks-recreation",
+              "name": "parks-recreation"
+            }
+          ],
+          "onlineUrl": "https://willowbrook.gov/recreation/register",
+          "eligibility": "Willowbrook residents (non-residents may register with surcharge)",
+          "fee": "Varies by program, scholarships available",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=800&q=80",
+            "alt": "Community recreation activities",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeService",
+          "id": "service-trash-recycling",
+          "title": "Trash & Recycling",
+          "path": "/services/trash-and-recycling",
+          "body": {
+            "processed": "<p>Curbside trash and recycling collection is provided weekly to all Willowbrook residents. The town also operates a drop-off recycling center for materials not accepted in curbside collection.</p><h2>Collection Schedule</h2><ul><li>Trash: Every Tuesday</li><li>Recycling: Every Thursday</li><li>Yard waste: First and third Saturdays (April - November)</li><li>Bulk pickup: By appointment</li></ul>",
+            "summary": "Curbside trash and recycling collection is provided weekly to all Willowbrook residents. The town also operates a drop-off recycling center for materials not accepted in curbside collection.Collection"
+          },
+          "department": [
+            {
+              "id": "public-works",
+              "name": "public-works"
+            }
+          ],
+          "onlineUrl": "https://willowbrook.gov/trash/schedule",
+          "eligibility": "All Willowbrook residents",
+          "fee": "Included in property taxes",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?w=800&q=80",
+            "alt": "Recycling bins and collection",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

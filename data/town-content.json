@@ -1,0 +1,446 @@
+{
+  "model": [
+    {
+      "bundle": "homepage",
+      "label": "Homepage",
+      "description": "Town homepage with hero, featured services, and community info",
+      "fields": [
+        { "id": "hero_title", "label": "Hero Title", "type": "string", "description": "Main headline" },
+        { "id": "hero_subtitle", "label": "Hero Subtitle", "type": "string", "description": "Secondary text below the title" },
+        { "id": "hero_description", "label": "Hero Description", "type": "text", "description": "Longer description for the hero section" },
+        { "id": "stats_items", "label": "Statistics", "type": "paragraph(stat_item)[]", "description": "Key town statistics" },
+        { "id": "featured_services_title", "label": "Featured Services Title", "type": "string" },
+        { "id": "cta_title", "label": "CTA Section Title", "type": "string" },
+        { "id": "cta_description", "label": "CTA Description", "type": "text" },
+        { "id": "cta_primary", "label": "Primary CTA Text", "type": "string" },
+        { "id": "cta_secondary", "label": "Secondary CTA Text", "type": "string" }
+      ]
+    },
+    {
+      "bundle": "department",
+      "label": "Department",
+      "description": "Town government departments and offices",
+      "body": true,
+      "fields": [
+        { "id": "phone", "label": "Phone", "type": "string" },
+        { "id": "email", "label": "Email", "type": "string" },
+        { "id": "location", "label": "Location", "type": "string" },
+        { "id": "hours", "label": "Office Hours", "type": "string" },
+        { "id": "department_category", "label": "Department Category", "type": "term(departments)[]" },
+        { "id": "image", "label": "Department Image", "type": "image" }
+      ]
+    },
+    {
+      "bundle": "official",
+      "label": "Official",
+      "description": "Elected officials and appointed leaders",
+      "body": true,
+      "fields": [
+        { "id": "position", "label": "Position/Title", "type": "string" },
+        { "id": "department", "label": "Department", "type": "term(departments)[]" },
+        { "id": "email", "label": "Email", "type": "string" },
+        { "id": "phone", "label": "Phone", "type": "string" },
+        { "id": "office", "label": "Office Location", "type": "string" },
+        { "id": "photo", "label": "Photo", "type": "image" }
+      ]
+    },
+    {
+      "bundle": "service",
+      "label": "Service",
+      "description": "Services provided by the town to residents",
+      "body": true,
+      "fields": [
+        { "id": "department", "label": "Department", "type": "term(departments)[]" },
+        { "id": "online_url", "label": "Online Service URL", "type": "string" },
+        { "id": "eligibility", "label": "Eligibility", "type": "string" },
+        { "id": "fee", "label": "Fee", "type": "string" },
+        { "id": "image", "label": "Service Image", "type": "image" }
+      ]
+    },
+    {
+      "bundle": "meeting",
+      "label": "Meeting",
+      "description": "Town council meetings, board meetings, and public hearings",
+      "body": true,
+      "fields": [
+        { "id": "meeting_date", "label": "Meeting Date", "type": "datetime" },
+        { "id": "end_date", "label": "End Date", "type": "datetime" },
+        { "id": "location", "label": "Location", "type": "string" },
+        { "id": "meeting_type", "label": "Meeting Type", "type": "term(meeting_types)[]" },
+        { "id": "agenda_url", "label": "Agenda URL", "type": "string" },
+        { "id": "image", "label": "Meeting Image", "type": "image" }
+      ]
+    },
+    {
+      "bundle": "alert",
+      "label": "Alert",
+      "description": "Emergency alerts and public notices",
+      "body": true,
+      "fields": [
+        { "id": "alert_level", "label": "Alert Level", "type": "term(alert_levels)[]" },
+        { "id": "effective_date", "label": "Effective Date", "type": "datetime" },
+        { "id": "expiration_date", "label": "Expiration Date", "type": "datetime" },
+        { "id": "affected_area", "label": "Affected Area", "type": "string" }
+      ]
+    },
+    {
+      "bundle": "page",
+      "label": "Basic Page",
+      "description": "Static content pages",
+      "body": true,
+      "fields": []
+    },
+    {
+      "entity": "paragraph",
+      "bundle": "stat_item",
+      "label": "Statistic Item",
+      "description": "A key statistic with number and label",
+      "fields": [
+        { "id": "number", "label": "Number", "type": "string!", "description": "The statistic value" },
+        { "id": "label", "label": "Label", "type": "string!", "description": "What the number represents" }
+      ]
+    }
+  ],
+  "taxonomies": [
+    {
+      "vocabulary": "departments",
+      "label": "Departments",
+      "terms": [
+        { "name": "Administration", "id": "administration" },
+        { "name": "Public Works", "id": "public-works" },
+        { "name": "Parks & Recreation", "id": "parks-recreation" },
+        { "name": "Public Safety", "id": "public-safety" }
+      ]
+    },
+    {
+      "vocabulary": "service_categories",
+      "label": "Service Categories",
+      "terms": [
+        { "name": "Permits & Licenses", "id": "permits-licenses" },
+        { "name": "Utilities", "id": "utilities" },
+        { "name": "Community", "id": "community" },
+        { "name": "Public Safety", "id": "safety" }
+      ]
+    },
+    {
+      "vocabulary": "meeting_types",
+      "label": "Meeting Types",
+      "terms": [
+        { "name": "Town Council", "id": "town-council" },
+        { "name": "Planning Board", "id": "planning-board" },
+        { "name": "Public Hearing", "id": "public-hearing" }
+      ]
+    },
+    {
+      "vocabulary": "alert_levels",
+      "label": "Alert Levels",
+      "terms": [
+        { "name": "Emergency", "id": "emergency" },
+        { "name": "Warning", "id": "warning" },
+        { "name": "Advisory", "id": "advisory" }
+      ]
+    }
+  ],
+  "content": [
+    {
+      "id": "stat-population",
+      "type": "paragraph.stat_item",
+      "values": { "number": "24,500", "label": "Residents" }
+    },
+    {
+      "id": "stat-parks",
+      "type": "paragraph.stat_item",
+      "values": { "number": "18", "label": "Public Parks" }
+    },
+    {
+      "id": "stat-services",
+      "type": "paragraph.stat_item",
+      "values": { "number": "50+", "label": "Town Services" }
+    },
+    {
+      "id": "stat-founded",
+      "type": "paragraph.stat_item",
+      "values": { "number": "1847", "label": "Year Founded" }
+    },
+    {
+      "id": "homepage",
+      "type": "node.homepage",
+      "path": "/homepage",
+      "values": {
+        "title": "Welcome to the Town of Willowbrook",
+        "hero_title": "Your Community, Your Home",
+        "hero_subtitle": "Town of Willowbrook",
+        "hero_description": "<p>Nestled in the heart of the valley, Willowbrook is a vibrant community committed to transparent governance, excellent public services, and a high quality of life for all residents.</p>",
+        "stats_items": ["@stat-population", "@stat-parks", "@stat-services", "@stat-founded"],
+        "featured_services_title": "Popular Services",
+        "cta_title": "How Can We Help?",
+        "cta_description": "<p>The Town of Willowbrook is here to serve you. Report issues, request services, or get in touch with your local government.</p>",
+        "cta_primary": "Report an Issue",
+        "cta_secondary": "Contact Us"
+      }
+    },
+    {
+      "id": "dept-admin",
+      "type": "node.department",
+      "path": "/departments/administration",
+      "values": {
+        "title": "Administration",
+        "body": "<p>The Administration Department oversees the day-to-day operations of the Town of Willowbrook. Led by the Town Manager, this department coordinates activities across all municipal departments to ensure efficient delivery of services.</p><h2>Key Responsibilities</h2><ul><li>Budget development and financial management</li><li>Human resources and personnel management</li><li>Inter-departmental coordination</li><li>Public communications and community outreach</li></ul>",
+        "phone": "(555) 100-1000",
+        "email": "admin@willowbrook.gov",
+        "location": "Town Hall, 100 Main Street",
+        "hours": "Monday - Friday, 8:00 AM - 5:00 PM",
+        "department_category": ["administration"],
+        "image": { "uri": "https://images.unsplash.com/photo-1577495508048-b635879837f1?w=800&q=80", "alt": "Town Hall building" }
+      }
+    },
+    {
+      "id": "dept-public-works",
+      "type": "node.department",
+      "path": "/departments/public-works",
+      "values": {
+        "title": "Public Works",
+        "body": "<p>The Department of Public Works maintains the town's infrastructure including roads, bridges, water systems, and stormwater management. Our team works year-round to keep Willowbrook safe, clean, and functional.</p><h2>Services</h2><ul><li>Road maintenance and snow removal</li><li>Water and sewer system management</li><li>Solid waste and recycling collection</li><li>Stormwater management</li></ul>",
+        "phone": "(555) 100-2000",
+        "email": "publicworks@willowbrook.gov",
+        "location": "Public Works Facility, 250 Industrial Drive",
+        "hours": "Monday - Friday, 7:00 AM - 3:30 PM",
+        "department_category": ["public-works"],
+        "image": { "uri": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&q=80", "alt": "Public works crew maintaining roads" }
+      }
+    },
+    {
+      "id": "dept-parks",
+      "type": "node.department",
+      "path": "/departments/parks-and-recreation",
+      "values": {
+        "title": "Parks & Recreation",
+        "body": "<p>The Parks & Recreation Department provides recreational programs, maintains parks and open spaces, and manages the Willowbrook Community Center. We offer year-round activities for residents of all ages.</p><h2>Facilities</h2><ul><li>Willowbrook Community Center</li><li>18 public parks and playgrounds</li><li>Municipal swimming pool</li><li>4 athletic fields</li></ul>",
+        "phone": "(555) 100-3000",
+        "email": "parks@willowbrook.gov",
+        "location": "Community Center, 75 Park Avenue",
+        "hours": "Monday - Saturday, 6:00 AM - 9:00 PM",
+        "department_category": ["parks-recreation"],
+        "image": { "uri": "https://images.unsplash.com/photo-1568393691622-c7ba131d63b4?w=800&q=80", "alt": "Beautiful park with walking trails" }
+      }
+    },
+    {
+      "id": "dept-public-safety",
+      "type": "node.department",
+      "path": "/departments/public-safety",
+      "values": {
+        "title": "Public Safety",
+        "body": "<p>The Public Safety Department encompasses the Willowbrook Police Department and Fire Department. Our sworn officers and firefighters work around the clock to protect our community and respond to emergencies.</p><h2>Divisions</h2><ul><li>Police patrol and investigations</li><li>Fire suppression and prevention</li><li>Emergency medical services</li><li>Emergency management</li></ul>",
+        "phone": "(555) 100-4000",
+        "email": "safety@willowbrook.gov",
+        "location": "Public Safety Building, 50 Civic Drive",
+        "hours": "24/7 (Non-emergency inquiries: Monday - Friday, 8:00 AM - 5:00 PM)",
+        "department_category": ["public-safety"],
+        "image": { "uri": "https://images.unsplash.com/photo-1517263904808-5dc91e3e7044?w=800&q=80", "alt": "Fire station and emergency vehicles" }
+      }
+    },
+    {
+      "id": "official-mayor",
+      "type": "node.official",
+      "path": "/officials/mayor-patricia-reynolds",
+      "values": {
+        "title": "Patricia Reynolds",
+        "body": "<p>Mayor Reynolds has served the Town of Willowbrook since 2020. A lifelong resident, she previously served on the Town Council for eight years and chaired the Planning Board. Her priorities include sustainable development, infrastructure investment, and community engagement.</p>",
+        "position": "Mayor",
+        "department": ["administration"],
+        "email": "mayor@willowbrook.gov",
+        "phone": "(555) 100-1001",
+        "office": "Town Hall, Suite 200",
+        "photo": { "uri": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80", "alt": "Mayor Patricia Reynolds" }
+      }
+    },
+    {
+      "id": "official-town-manager",
+      "type": "node.official",
+      "path": "/officials/town-manager-david-chen",
+      "values": {
+        "title": "David Chen",
+        "body": "<p>David Chen serves as Town Manager, overseeing the daily operations of Willowbrook's municipal government. With over 20 years of experience in local government, he brings expertise in public administration, budget management, and strategic planning.</p>",
+        "position": "Town Manager",
+        "department": ["administration"],
+        "email": "dchen@willowbrook.gov",
+        "phone": "(555) 100-1002",
+        "office": "Town Hall, Suite 210",
+        "photo": { "uri": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80", "alt": "Town Manager David Chen" }
+      }
+    },
+    {
+      "id": "official-police-chief",
+      "type": "node.official",
+      "path": "/officials/police-chief-maria-gonzalez",
+      "values": {
+        "title": "Maria Gonzalez",
+        "body": "<p>Chief Gonzalez leads the Willowbrook Police Department with a focus on community policing and public safety. She has served in law enforcement for 25 years and emphasizes building trust between the police force and the community.</p>",
+        "position": "Police Chief",
+        "department": ["public-safety"],
+        "email": "mgonzalez@willowbrook.gov",
+        "phone": "(555) 100-4001",
+        "office": "Public Safety Building, Room 101",
+        "photo": { "uri": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=400&q=80", "alt": "Police Chief Maria Gonzalez" }
+      }
+    },
+    {
+      "id": "service-building-permits",
+      "type": "node.service",
+      "path": "/services/building-permits",
+      "values": {
+        "title": "Building Permits",
+        "body": "<p>All new construction, renovations, and structural modifications in Willowbrook require a building permit. Our Building Department reviews applications to ensure compliance with local zoning regulations and building codes.</p><h2>How to Apply</h2><ul><li>Complete the building permit application form</li><li>Submit architectural plans and site surveys</li><li>Pay the applicable permit fee</li><li>Schedule required inspections</li></ul>",
+        "department": ["administration"],
+        "online_url": "https://willowbrook.gov/permits/apply",
+        "eligibility": "Property owners and licensed contractors",
+        "fee": "$50 - $500 depending on project scope",
+        "image": { "uri": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80", "alt": "Construction site with building permits" }
+      }
+    },
+    {
+      "id": "service-water-billing",
+      "type": "node.service",
+      "path": "/services/water-billing",
+      "values": {
+        "title": "Water & Sewer Billing",
+        "body": "<p>The Town of Willowbrook provides water and sewer services to all residents. Bills are issued quarterly based on metered water usage. We offer online payment, automatic bank draft, and in-person payment options.</p><h2>Payment Options</h2><ul><li>Online payment portal</li><li>Automatic bank draft enrollment</li><li>In-person at Town Hall</li><li>Mail payment to P.O. Box 1847</li></ul>",
+        "department": ["public-works"],
+        "online_url": "https://willowbrook.gov/water/pay",
+        "eligibility": "All Willowbrook water service customers",
+        "fee": "Based on quarterly metered usage",
+        "image": { "uri": "https://images.unsplash.com/photo-1584438784894-089d6a62b8fa?w=800&q=80", "alt": "Water treatment facility" }
+      }
+    },
+    {
+      "id": "service-recreation-programs",
+      "type": "node.service",
+      "path": "/services/recreation-programs",
+      "values": {
+        "title": "Recreation Programs",
+        "body": "<p>The Parks & Recreation Department offers a wide variety of programs for residents of all ages. From youth sports leagues to senior fitness classes, there is something for everyone in Willowbrook.</p><h2>Current Programs</h2><ul><li>Youth soccer, basketball, and baseball leagues</li><li>Adult fitness and yoga classes</li><li>Senior wellness programs</li><li>Summer camp and after-school care</li></ul>",
+        "department": ["parks-recreation"],
+        "online_url": "https://willowbrook.gov/recreation/register",
+        "eligibility": "Willowbrook residents (non-residents may register with surcharge)",
+        "fee": "Varies by program, scholarships available",
+        "image": { "uri": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=800&q=80", "alt": "Community recreation activities" }
+      }
+    },
+    {
+      "id": "service-trash-recycling",
+      "type": "node.service",
+      "path": "/services/trash-and-recycling",
+      "values": {
+        "title": "Trash & Recycling",
+        "body": "<p>Curbside trash and recycling collection is provided weekly to all Willowbrook residents. The town also operates a drop-off recycling center for materials not accepted in curbside collection.</p><h2>Collection Schedule</h2><ul><li>Trash: Every Tuesday</li><li>Recycling: Every Thursday</li><li>Yard waste: First and third Saturdays (April - November)</li><li>Bulk pickup: By appointment</li></ul>",
+        "department": ["public-works"],
+        "online_url": "https://willowbrook.gov/trash/schedule",
+        "eligibility": "All Willowbrook residents",
+        "fee": "Included in property taxes",
+        "image": { "uri": "https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?w=800&q=80", "alt": "Recycling bins and collection" }
+      }
+    },
+    {
+      "id": "meeting-town-council",
+      "type": "node.meeting",
+      "path": "/meetings/town-council-march-2026",
+      "values": {
+        "title": "Town Council Regular Meeting - March 2026",
+        "body": "<p>The Town Council will hold its regular monthly meeting. Agenda items include the proposed FY2027 budget, updates on the Willowbrook Green infrastructure project, and a public comment period.</p><h2>Agenda Highlights</h2><ul><li>Approval of previous meeting minutes</li><li>FY2027 budget presentation</li><li>Willowbrook Green project update</li><li>Public comment period</li><li>New business</li></ul>",
+        "meeting_date": "2026-03-17T19:00:00",
+        "end_date": "2026-03-17T21:00:00",
+        "location": "Town Hall Council Chambers, 100 Main Street",
+        "meeting_type": ["town-council"],
+        "agenda_url": "https://willowbrook.gov/meetings/agendas/march-2026",
+        "image": { "uri": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=800&q=80", "alt": "Town council meeting" }
+      }
+    },
+    {
+      "id": "meeting-planning-board",
+      "type": "node.meeting",
+      "path": "/meetings/planning-board-april-2026",
+      "values": {
+        "title": "Planning Board Meeting - April 2026",
+        "body": "<p>The Planning Board will review two new development proposals and discuss updates to the town's comprehensive plan. Public input is welcome during the designated comment periods.</p><h2>Agenda</h2><ul><li>Site plan review: Mixed-use development at 45 Elm Street</li><li>Subdivision application: Willow Ridge Estates</li><li>Comprehensive plan update discussion</li><li>Public comment</li></ul>",
+        "meeting_date": "2026-04-08T18:30:00",
+        "end_date": "2026-04-08T20:30:00",
+        "location": "Town Hall Conference Room A",
+        "meeting_type": ["planning-board"],
+        "agenda_url": "https://willowbrook.gov/meetings/agendas/planning-april-2026",
+        "image": { "uri": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=800&q=80", "alt": "Planning board session" }
+      }
+    },
+    {
+      "id": "meeting-public-hearing",
+      "type": "node.meeting",
+      "path": "/meetings/public-hearing-budget-2026",
+      "values": {
+        "title": "Public Hearing: FY2027 Budget",
+        "body": "<p>The Town of Willowbrook will hold a public hearing on the proposed Fiscal Year 2027 municipal budget. Residents are encouraged to attend and provide their input on budget priorities and allocations.</p><p>A copy of the proposed budget is available for review at Town Hall and on the town website.</p>",
+        "meeting_date": "2026-04-22T19:00:00",
+        "end_date": "2026-04-22T21:00:00",
+        "location": "Town Hall Council Chambers",
+        "meeting_type": ["public-hearing"],
+        "agenda_url": "https://willowbrook.gov/budget/fy2027",
+        "image": { "uri": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&q=80", "alt": "Budget documents and meeting materials" }
+      }
+    },
+    {
+      "id": "alert-water-main",
+      "type": "node.alert",
+      "path": "/alerts/water-main-repair",
+      "values": {
+        "title": "Water Main Repair - Oak Street",
+        "body": "<p>The Department of Public Works will be performing emergency water main repairs on Oak Street between Maple Avenue and Pine Drive. Water service may be interrupted for residents in the affected area during the repair work.</p><p>Residents are advised to store an adequate supply of drinking water prior to the scheduled repair. Bottled water will be available at Town Hall for affected residents.</p>",
+        "alert_level": ["warning"],
+        "effective_date": "2026-03-10T06:00:00",
+        "expiration_date": "2026-03-12T18:00:00",
+        "affected_area": "Oak Street between Maple Avenue and Pine Drive"
+      }
+    },
+    {
+      "id": "alert-winter-storm",
+      "type": "node.alert",
+      "path": "/alerts/winter-storm-warning",
+      "values": {
+        "title": "Winter Storm Warning",
+        "body": "<p>The National Weather Service has issued a Winter Storm Warning for the Willowbrook area. Expected snowfall of 8-12 inches with high winds. Town plows will be deployed. Residents should limit non-essential travel.</p><h2>Preparedness Tips</h2><ul><li>Stay off roads during heavy snowfall</li><li>Keep emergency supplies readily available</li><li>Check on elderly neighbors</li><li>Report downed power lines to (555) 100-4000</li></ul>",
+        "alert_level": ["emergency"],
+        "effective_date": "2026-03-05T18:00:00",
+        "expiration_date": "2026-03-07T06:00:00",
+        "affected_area": "All of Willowbrook"
+      }
+    },
+    {
+      "id": "alert-road-closure",
+      "type": "node.alert",
+      "path": "/alerts/main-street-closure",
+      "values": {
+        "title": "Main Street Temporary Closure",
+        "body": "<p>Main Street will be temporarily closed between Center Square and River Road for the annual Willowbrook Spring Festival. Detour routes will be posted. Local business access will be maintained via side streets.</p>",
+        "alert_level": ["advisory"],
+        "effective_date": "2026-04-18T06:00:00",
+        "expiration_date": "2026-04-20T22:00:00",
+        "affected_area": "Main Street from Center Square to River Road"
+      }
+    },
+    {
+      "id": "page-about",
+      "type": "node.page",
+      "path": "/about",
+      "values": {
+        "title": "About the Town of Willowbrook",
+        "body": "<p>Founded in 1847, the Town of Willowbrook is a charming community of approximately 24,500 residents located in the heart of the valley. Known for its tree-lined streets, excellent schools, and strong sense of community, Willowbrook has been recognized as one of the best places to live in the region.</p><h2>Town Government</h2><p>Willowbrook operates under a Council-Manager form of government. The Town Council, consisting of five elected members and the Mayor, sets policy and budget priorities. The Town Manager handles day-to-day operations and oversees all municipal departments.</p><h2>Our Mission</h2><p>To provide excellent public services, maintain a safe and welcoming community, and ensure transparent and responsive governance for all residents of Willowbrook.</p><h2>History</h2><p>What began as a small farming settlement along Willow Creek has grown into a thriving suburban community. The town was officially incorporated in 1847 and has maintained its commitment to preserving green spaces and community character throughout its growth.</p>"
+      }
+    },
+    {
+      "id": "page-contact",
+      "type": "node.page",
+      "path": "/contact",
+      "values": {
+        "title": "Contact the Town of Willowbrook",
+        "body": "<h2>Town Hall</h2><p><strong>Address:</strong> 100 Main Street, Willowbrook, NY 10001<br/><strong>Phone:</strong> (555) 100-1000<br/><strong>Email:</strong> info@willowbrook.gov<br/><strong>Hours:</strong> Monday - Friday, 8:00 AM - 5:00 PM</p><h2>Emergency Contacts</h2><p><strong>Police/Fire/EMS Emergency:</strong> 911<br/><strong>Non-Emergency Police:</strong> (555) 100-4000<br/><strong>Public Works Emergency:</strong> (555) 100-2000</p><h2>After-Hours Reporting</h2><p>For after-hours emergencies related to water, sewer, or road hazards, call the Public Works emergency line at (555) 100-2099.</p>"
+      }
+    }
+  ]
+}
