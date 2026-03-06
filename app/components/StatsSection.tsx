@@ -16,7 +16,7 @@ export default function StatsSection({ homepageContent }: StatsSectionProps) {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
           {stats.map((stat: any, i: number) => (
             <div key={stat.id || i} className="group">
-              <div className="text-3xl md:text-4xl font-display font-bold text-transparent bg-clip-text bg-gradient-to-r from-primary-700 to-accent-500">{stat.value || stat.statValue}</div>
+              <div className="text-3xl md:text-4xl font-display font-bold text-transparent bg-clip-text bg-gradient-to-r from-primary-700 to-accent-500">{stat.value || stat.number || stat.statValue}</div>
               <div className="text-gray-600 mt-2 text-sm font-medium uppercase tracking-wide">{stat.label || stat.statLabel || stat.title}</div>
             </div>
           ))}
